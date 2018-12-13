@@ -1,0 +1,5 @@
+<input type="text" name="name" [(ngModel)]="author.name">
+<button (click)="onEdit(author)"> Submit </button>
+<button [routerLink]="['']">Cancel</button>
+<p>{{author._id | json}}</p>
+<p>{{error}}</p>
